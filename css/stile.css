@@ -1,7 +1,7 @@
 :root{
     --color-bg-nav: #2c3e50;
     --color-bg-section: #1abc9c;
-    --color-bg-footer: #2c3e50;
+    --color-bg-footer: #3a546d;
 }
 
 .bg-color-nav{
@@ -24,6 +24,10 @@
     background-color: var(--bs-black);
 }
 
+.ms_color_active{
+    color: var(--color-bg-section);
+}
+
 .ms_fix_h{
     height: 200px;
 }
@@ -31,6 +35,14 @@
 .ms_max_w_80{
     width: 80%;
     margin: 0 auto;
+}
+
+.ms_circle_icon{
+    border: 1px solid white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    line-height: 35px;
 }
 
 
