@@ -71,5 +71,38 @@
 }
 
 
+/* Bonus hover */
+
+.col:hover img{
+    opacity: 0.5;
+}
+
+.ms_w_calc{
+    width: calc(100% - 24px);
+    display: none;
+}
+
+.col:hover .ms_w_calc{
+    display: block;
+    opacity: 0.6;
+}
+
+.ms_icon_plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    display: none;
+}
+
+.col:hover .ms_icon_plus{
+    display: block;
+}
+
+
+
+
+
 
 
